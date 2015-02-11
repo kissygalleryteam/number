@@ -1,0 +1,1 @@
+KISSY.add("kg/number/1.0.0/lib/main",["node","base"],function(n,e,i,a){var d=(e("node").all,e("base"));a.exports=d.extend({initializer:function(){}},{ATTRS:{}})});
