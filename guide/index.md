@@ -10,22 +10,22 @@ VcNumber。
 
 ## 初始化组件
 		
-    S.use('kg/vc-number/1.2.0/index,kg/vc-number/1.2.0/index.css', function (S, VcNumber) {
+    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, VcNumber) {
          var vcNumber = new VcNumber();
          vcNumber.render();
     })
 
-    > 提供两种皮肤：'kg/vc-number/1.2.0/index.css', 'kg/vc-number/1.2.0/arrow.css'
+    > 提供两种皮肤：'kg/number/1.2.0/index.css', 'kg/number/1.2.0/arrow.css'
 
 ## 默认配置
 
 ### 代码
 
-    <input type="text" value="40.00" class="vc-number" data-range="2.00" data-max="9999999.00" data-min="1" id="J_1">
+    <input type="text" value="40.00" class="number" data-range="2.00" data-max="9999999.00" data-min="1" id="J_1">
 
-    S.use('kg/vc-number/1.2.0/index,kg/vc-number/1.2.0/index.css', function (S, VcNumber) {
+    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, VcNumber) {
             var number = new VcNumber({
-                $target: '.vc-number',
+                $target: '.number',
                 range: 2,
                 max: 88,
                 min: 1,
@@ -85,9 +85,9 @@ vcNumber.on('afterChange',function(ev) {
 ## 滑动效果插件(CSS3)
 
 ### 代码
-    S.use('kg/vc-number/1.2.0/plugins/slide/slide,kg/vc-number/1.2.0/plugins/slide/slide.css',function(S, Slide){
+    S.use('kg/number/1.2.0/plugins/slide/slide,kg/number/1.2.0/plugins/slide/slide.css',function(S, Slide){
                 var number2 = new VcNumber({
-                    $target: '.vc-number-slide',
+                    $target: '.number-slide',
                     range: 2,
                     max: 888,
                     min: 1,
@@ -110,9 +110,9 @@ vcNumber.on('afterChange',function(ev) {
 ## 中文提示插件
 
 ### 代码
-    S.use('kg/vc-number/1.2.0/plugins/amountInWords/amountInWords,kg/vc-number/1.2.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
+    S.use('kg/number/1.2.0/plugins/amountInWords/amountInWords,kg/number/1.2.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
                 var number2 = new VcNumber({
-                    $target: '.vc-number-ch',
+                    $target: '.number-ch',
                     range: 1000,
                     max: 999999999,
                     min: 1,
@@ -125,7 +125,7 @@ vcNumber.on('afterChange',function(ev) {
 
                 /*换种中文提示方式*/
                 var number3 = new VcNumber({
-                    $target: '.vc-number-ch2',
+                    $target: '.number-ch2',
                     range: 1000,
                     max: 999999999,
                     min: 1,
