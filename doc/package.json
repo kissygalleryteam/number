@@ -1,5 +1,5 @@
 {
-    "name": "vc-number",
+    "name": "number",
     "version": "1.0.0",
     "devDependencies": {
         "bufferstreams": "0.0.2",

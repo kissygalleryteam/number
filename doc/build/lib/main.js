@@ -1,4 +1,4 @@
-KISSY.add('kg/vc-number/1.2.0/lib/main',["node","base"],function(S ,require, exports, module) {
+KISSY.add('kg/number/1.0.0/lib/main',["node","base"],function(S ,require, exports, module) {
  
 var EMPTY = '';
 var $ = require('node').all;

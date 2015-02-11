@@ -103,7 +103,6 @@ var VcNumber = Base.extend({
                 if(e.type == 'keydown' || e.type == 'mousedown' || e.type == 'touchstart'){
                     timer && clearTimeout(timer);
                     timer = setTimeout(function(){
-                        console.log(e.type);
                         changeValue();
                         if(self.timer) {clearTimeout(self.timer);}
                         self.timer = setTimeout(function(){
@@ -119,7 +118,6 @@ var VcNumber = Base.extend({
                 }
                 if(e.type == 'keyup' || e.type == 'mouseup' || e.type == 'touchend'){
                     setTimeout(function(){
-                        console.log(e.type);
                         clearTimeout(self.timer);
                         intervalCount = 0;
 
