@@ -65,8 +65,8 @@
             <details>
                 <summary>代码</summary>
                 <pre class="code">
-                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumver) {
-                            var number = new KNumver({
+                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumber) {
+                            var number = new KNumber({
                                 $target: '.number',
                                 range: 2,
                                 max: 88,
@@ -93,8 +93,8 @@
             <details>
                 <summary>代码</summary>
                 <pre class="code">
-                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumver) {
-                            var number = new KNumver({
+                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumber) {
+                            var number = new KNumber({
                                 $target: '.number',
                                 range: 2,
                                 max: 88,
@@ -121,7 +121,7 @@
                 <summary>代码</summary>
                 <pre class="code">
                     S.use('kg/number/1.0.0/plugins/slide/slide,kg/number/1.0.0/plugins/slide/slide.css',function(S, Slide){
-                        var number2 = new KNumver({
+                        var number2 = new KNumber({
                             $target: '.number-slide',
                             range: 2,
                             max: 888,
@@ -149,7 +149,7 @@
                 <summary>代码</summary>
                 <pre class="code">
                     S.use('kg/number/1.0.0/plugins/amountInWords/amountInWords,kg/number/1.0.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
-                        var number2 = new KNumver({
+                        var number2 = new KNumber({
                             $target: '.number-ch',
                             range: 1000,
                             max: 999999999,
@@ -176,7 +176,7 @@
                 <pre class="code">
                     S.use('kg/number/1.0.0/plugins/amountInWords/amountInWords,kg/number/1.0.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
                         /*换种中文提示方式*/
-                        var number3 = new KNumver({
+                        var number3 = new KNumber({
                             $target: '.number-ch2',
                             range: 1000,
                             max: 999999999,
@@ -203,8 +203,8 @@
             <details>
                 <summary>代码</summary>
                 <pre class="code">
-                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumver) {
-                            var number4 = new KNumver({
+                    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumber) {
+                            var number4 = new KNumber({
                             $target: '.number-mobile',
                             range: 2,
                             max: 88,
@@ -235,8 +235,8 @@
         });
     }
 
-    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumver) {
-        var number = new KNumver({
+    S.use('kg/number/1.0.0/index,kg/number/1.0.0/arrow.css', function (S, KNumber) {
+        var number = new KNumber({
             $target: '.number',
             range: 2,
             max: 88,
@@ -249,7 +249,7 @@
 
 
         S.use('kg/number/1.0.0/plugins/slide/slide,kg/number/1.0.0/plugins/slide/slide.css',function(S, Slide){
-            var number2 = new KNumver({
+            var number2 = new KNumber({
                 $target: '.number-slide',
                 range: 2,
                 max: 888,
@@ -265,7 +265,7 @@
         });
 
         S.use('kg/number/1.0.0/plugins/amountInWords/amountInWords,kg/number/1.0.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
-            var number2 = new KNumver({
+            var number2 = new KNumber({
                 $target: '.number-ch',
                 range: 1000,
                 max: 999999999,
@@ -278,7 +278,7 @@
             number2.plug(new AmountInWords());
 
             /*换种中文提示方式*/
-            var number3 = new KNumver({
+            var number3 = new KNumber({
                 $target: '.number-ch2',
                 range: 1000,
                 max: 999999999,
@@ -294,7 +294,7 @@
 
         })
 
-        var number4 = new KNumver({
+        var number4 = new KNumber({
             $target: '.number-mobile',
             range: 2,
             max: 88,
