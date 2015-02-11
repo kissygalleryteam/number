@@ -10,8 +10,8 @@ number。
 
 ## 初始化组件
 		
-    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumver) {
-         var vcNumber = new KNumver();
+    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumber) {
+         var vcNumber = new KNumber();
          vcNumber.render();
     })
 
@@ -23,8 +23,8 @@ number。
 
     <input type="text" value="40.00" class="number" data-range="2.00" data-max="9999999.00" data-min="1" id="J_1">
 
-    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumver) {
-            var number = new KNumver({
+    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumber) {
+            var number = new KNumber({
                 $target: '.number',
                 range: 2,
                 max: 88,
@@ -86,7 +86,7 @@ vcNumber.on('afterChange',function(ev) {
 
 ### 代码
     S.use('kg/number/1.2.0/plugins/slide/slide,kg/number/1.2.0/plugins/slide/slide.css',function(S, Slide){
-                var number2 = new KNumver({
+                var number2 = new KNumber({
                     $target: '.number-slide',
                     range: 2,
                     max: 888,
@@ -111,7 +111,7 @@ vcNumber.on('afterChange',function(ev) {
 
 ### 代码
     S.use('kg/number/1.2.0/plugins/amountInWords/amountInWords,kg/number/1.2.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
-                var number2 = new KNumver({
+                var number2 = new KNumber({
                     $target: '.number-ch',
                     range: 1000,
                     max: 999999999,
@@ -124,7 +124,7 @@ vcNumber.on('afterChange',function(ev) {
                 number2.plug(new AmountInWords());
 
                 /*换种中文提示方式*/
-                var number3 = new KNumver({
+                var number3 = new KNumber({
                     $target: '.number-ch2',
                     range: 1000,
                     max: 999999999,
