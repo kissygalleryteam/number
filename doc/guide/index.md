@@ -10,12 +10,12 @@ number。
 
 ## 初始化组件
 		
-    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumber) {
+    S.use('kg/number/1.0.0/index,kg/number/1.0.0/index.css', function (S, KNumber) {
          var vcNumber = new KNumber();
          vcNumber.render();
     })
 
-    > 提供两种皮肤：'kg/number/1.2.0/index.css', 'kg/number/1.2.0/arrow.css'
+    > 提供两种皮肤：'kg/number/1.0.0/index.css', 'kg/number/1.0.0/arrow.css'
 
 ## 默认配置
 
@@ -23,7 +23,7 @@ number。
 
     <input type="text" value="40.00" class="number" data-range="2.00" data-max="9999999.00" data-min="1" id="J_1">
 
-    S.use('kg/number/1.2.0/index,kg/number/1.2.0/index.css', function (S, KNumber) {
+    S.use('kg/number/1.0.0/index,kg/number/1.0.0/index.css', function (S, KNumber) {
             var number = new KNumber({
                 $target: '.number',
                 range: 2,
@@ -85,7 +85,7 @@ vcNumber.on('afterChange',function(ev) {
 ## 滑动效果插件(CSS3)
 
 ### 代码
-    S.use('kg/number/1.2.0/plugins/slide/slide,kg/number/1.2.0/plugins/slide/slide.css',function(S, Slide){
+    S.use('kg/number/1.0.0/plugins/slide/slide,kg/number/1.0.0/plugins/slide/slide.css',function(S, Slide){
                 var number2 = new KNumber({
                     $target: '.number-slide',
                     range: 2,
@@ -110,7 +110,7 @@ vcNumber.on('afterChange',function(ev) {
 ## 中文提示插件
 
 ### 代码
-    S.use('kg/number/1.2.0/plugins/amountInWords/amountInWords,kg/number/1.2.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
+    S.use('kg/number/1.0.0/plugins/amountInWords/amountInWords,kg/number/1.0.0/plugins/amountInWords/amountInWords.css',function(S, AmountInWords){
                 var number2 = new KNumber({
                     $target: '.number-ch',
                     range: 1000,
