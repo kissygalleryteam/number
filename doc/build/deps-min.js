@@ -1,1 +1,0 @@
-KISSY.config("requires",{"kg/number/1.0.0/index":["node","base","./plugins/amountInWords/amountInWords"],"kg/number/1.0.0/lib/main":["node","base"],"kg/number/1.0.0/plugins/amountInWords/amountInWords":["node","base"],"kg/number/1.0.0/plugins/slide/slide":["node","base"]});
